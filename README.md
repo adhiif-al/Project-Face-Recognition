@@ -1,4 +1,4 @@
-# 🎭 Face Recognition System — Nilai Eigen & Eigenface
+# 🎭 Face Recognition System => Nilai Eigen & Eigenface
 
 > **Aplikasi Pengenalan Wajah berbasis PCA/Eigenface**  
 > Implementasi metode *Principal Component Analysis* (PCA) menggunakan Singular Value Decomposition (SVD) untuk pengenalan wajah secara real-time maupun berbasis gambar.
