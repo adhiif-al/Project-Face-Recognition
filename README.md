@@ -134,12 +134,12 @@ Akses melalui tombol **"📊 Lihat Visualisasi"** setelah dataset dimuat.
 
 ## 🔧 Instalasi
 
-### Prasyarat
+### Dependencies
 
 - Python 3.8+
 - pip
 
-### Install Dependensi
+### Install Dependencies
 
 ```bash
 pip install opencv-python numpy Pillow customtkinter matplotlib
