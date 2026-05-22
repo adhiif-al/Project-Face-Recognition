@@ -46,21 +46,7 @@ Dimana:
 
 ### Main Interface
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│  Konfigurasi & Input Data     │         Workspace               │
-│  ─────────────────────────    │  ┌──────────┐  ┌──────────┐    │
-│  1. Dataset Input             │  │ Your Test│  │Identified│    │
-│     [Choose Folder]           │  │   Face   │  │  Face    │    │
-│                               │  │          │  │          │    │
-│  2. Test Image                │  └──────────┘  └──────────┘    │
-│     [Drag & Drop / Browse]    │                                  │
-│                               │  Accuracy: 97.5% | Time: 0.003s │
-│  Threshold: [──●──────] 5000  │                                  │
-│  □ Use Webcam                 │                                  │
-│                               │                                  │
-│  [Start Face Recognition]     │                                  │
-│  [📊 Lihat Visualisasi]       │                                  │
-└─────────────────────────────────────────────────────────────────┘
+
 ```
 
 ---
