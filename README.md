@@ -164,7 +164,7 @@ matplotlib>=3.5
 
 ## 🛠️ Detail Teknis
 
-### `backend.py` — FaceRecognitionBackend
+### `backend.py` -> FaceRecognitionBackend
 
 | Metode | Fungsi |
 |--------|--------|
@@ -192,14 +192,14 @@ Test Image → Grayscale → Resize → Flatten
            → Best match (jika jarak < threshold)
 ```
 
-### `frontend.py` — FaceApp (CustomTkinter GUI)
+### `frontend.py` -> FaceApp (CustomTkinter GUI)
 
 - Dark theme dengan skema warna `#09090b` / `#18181c`
 - Thread terpisah untuk feed webcam (≈30 fps) agar UI tidak freeze
 - Threshold dapat disesuaikan realtime via slider (1000–10000)
 - Menampilkan akurasi dan waktu komputasi di status bar
 
-### `visualisasi.py` — VisualisasiWindow
+### `visualisasi.py` -> VisualisasiWindow
 
 - 5 tab interaktif berbasis Matplotlib + TkAgg backend
 - LOOCV (Leave-One-Out Cross Validation) dijalankan langsung di GUI
