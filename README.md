@@ -236,18 +236,6 @@ Dalam visualisasi **Grafik Nilai Eigen**, komponen di atas garis threshold (λ²
 
 ---
 
-## 📋 Contoh Hasil
-
-```
-Dataset     : 30 gambar (10 orang, 3 foto per orang)
-Threshold   : 5000
-Akurasi     : 93.33%  (LOOCV)
-Waktu proses: ±0.003 detik per gambar
-Ukuran input: 100 × 100 px
-```
-
----
-
 ## 👨‍💻 Teknologi yang Digunakan
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
