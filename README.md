@@ -249,14 +249,13 @@ Dalam visualisasi **Grafik Nilai Eigen**, komponen di atas garis threshold (λ²
 ## 📄 Lisensi
 
 Proyek ini dikembangkan untuk keperluan **Project Based Learning — Aljabar Linear**.  
-FAUSTINA HELENA AFNY		L0125040
-TSANIYA NURFADHILAH		L0125117
-ALYAA NADHIIFAH			L0125141
+FAUSTINA HELENA AFNY		L0125040 </br>
+TSANIYA NURFADHILAH		L0125117 </br>
+ALYAA NADHIIFAH			L0125141 </br>
 
 
 ---
 
 <p align="center">
-  <i>Face Recognition System © 2025 — Powered by PCA & Eigenface</i>
-  <i>Made W/ ☕</i>
+  <i>Face Recognition System © 2025 — Powered by PCA & Eigenface</i> 
 </p>
