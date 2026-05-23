@@ -1,11 +1,11 @@
-# 🎭 Face Recognition System => Nilai Eigen & Eigenface
+# Face Recognition System => Nilai Eigen & Eigenface
 
 > **Aplikasi Pengenalan Wajah berbasis PCA/Eigenface**  
 > Implementasi metode *Principal Component Analysis* (PCA) menggunakan Singular Value Decomposition (SVD) untuk pengenalan wajah secara real-time maupun berbasis gambar.
 
 ---
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 
 Proyek ini merupakan implementasi pengenalan wajah (*face recognition*) menggunakan konsep **Nilai Eigen** dan **Eigenface** yang merupakan aplikasi nyata dari **Aljabar Linear**. Sistem ini dibangun dengan pendekatan matematis murni menggunakan **SVD (Singular Value Decomposition)** tanpa bergantung pada *library* machine learning eksternal.
 
@@ -16,7 +16,7 @@ Program memungkinkan pengguna untuk:
 
 ---
 
-## 🧮 Landasan Matematika
+## Landasan Matematika
 
 Metode eigenface bekerja dengan prinsip matematis berikut:
 
@@ -42,7 +42,7 @@ Dimana:
 
 ---
 
-## 🖥️ Tampilan Aplikasi
+## Tampilan Aplikasi
 
 ### Main Interface
 ```
@@ -51,7 +51,7 @@ Dimana:
 
 ---
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 ```
 Face-Recognition-Eigenface/
@@ -73,7 +73,7 @@ Face-Recognition-Eigenface/
 
 ---
 
-## ⚙️ Cara Penggunaan
+## Cara Penggunaan
 
 ### 1. Siapkan Dataset
 
@@ -112,15 +112,15 @@ python frontend.py
 4. Klik [Start Face Recognition]
    └─ Hasil & akurasi tampil di workspace
 
-5. Klik [📊 Lihat Visualisasi]
+5. Klik [Lihat Visualisasi]
    └─ Buka panel analisis eigen
 ```
 
 ---
 
-## 📊 Panel Visualisasi
+## Panel Visualisasi
 
-Akses melalui tombol **"📊 Lihat Visualisasi"** setelah dataset dimuat.
+Akses melalui tombol **"Lihat Visualisasi"** setelah dataset dimuat.
 
 | Tab | Isi |
 |-----|-----|
@@ -132,7 +132,7 @@ Akses melalui tombol **"📊 Lihat Visualisasi"** setelah dataset dimuat.
 
 ---
 
-## 🔧 Instalasi
+## Instalasi
 
 ### Dependencies
 
@@ -162,7 +162,7 @@ matplotlib>=3.5
 
 ---
 
-## 🛠️ Detail Teknis
+## Detail Teknis
 
 ### `backend.py` -> FaceRecognitionBackend
 
@@ -208,7 +208,7 @@ Test Image → Grayscale → Resize → Flatten
 
 ---
 
-## 📐 Penjelasan Threshold
+## Penjelasan Threshold
 
 Threshold adalah batas **jarak Euclidean** maksimum antara proyeksi wajah uji dengan wajah di database.
 
@@ -221,7 +221,7 @@ Jarak ≥ Threshold  →  "Unknown" (tidak dikenali)
 
 ---
 
-## 🧠 Konsep Eigenvalue & Eigenvector
+## Konsep Eigenvalue & Eigenvector
 
 ```
 Eigenvalue besar  →  Komponen yang menjelaskan variasi terbesar
@@ -236,7 +236,7 @@ Dalam visualisasi **Grafik Nilai Eigen**, komponen di atas garis threshold (λ²
 
 ---
 
-## 👨‍💻 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?style=flat-square&logo=opencv)
@@ -249,10 +249,14 @@ Dalam visualisasi **Grafik Nilai Eigen**, komponen di atas garis threshold (λ²
 ## 📄 Lisensi
 
 Proyek ini dikembangkan untuk keperluan **Project Based Learning — Aljabar Linear**.  
-Bebas digunakan dan dimodifikasi untuk tujuan akademik dengan menyertakan atribusi.
+FAUSTINA HELENA AFNY		L0125040
+TSANIYA NURFADHILAH		L0125117
+ALYAA NADHIIFAH			L0125141
+
 
 ---
 
 <p align="center">
   <i>Face Recognition System © 2025 — Powered by PCA & Eigenface</i>
+  <i>Made W/ ☕</i>
 </p>
