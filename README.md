@@ -41,13 +41,73 @@ Dimana:
 - **λ** = eigenvalue (nilai eigen)
 
 ---
-
+ 
 ## Tampilan Aplikasi
-
+ 
 ### Main Interface
-```
+ 
+Tampilan awal aplikasi saat pertama kali dibuka:
+ 
+<p align="center">
+  <img src="documentation/TAMPILAN AWAL APLIKASI.png" alt="Tampilan Awal Aplikasi" width="600"/>
+</p>
 
-```
+---
+ 
+### Hasil Pengenalan: Ada di Dataset
+ 
+Wajah yang **dikenali** karena terdapat dalam dataset:
+ 
+<p align="center">
+  <img src="documentation/ADA DI DATA SET.png" alt="Wajah Ada di Dataset" width="600"/>
+</p>
+
+---
+ 
+### Hasil Pengenalan: Tidak Ada di Dataset
+ 
+Wajah yang **tidak dikenali** karena tidak terdapat dalam dataset pelatihan:
+ 
+<p align="center">
+  <img src="documentation/GK DI DATA SET 1.png" alt="Wajah Tidak Ada di Dataset (1)" width="49%"/>
+  <img src="documentation/GK DI DATA SET 2.png" alt="Wajah Tidak Ada di Dataset (2)" width="49%"/>
+</p>
+
+---
+ 
+### Pengujian via Kamera (Webcam)
+ 
+Pengenalan wajah secara real-time menggunakan webcam:
+ 
+<p align="center">
+  <img src="documentation/WEBCAM TAMPILAN.png" alt="Tampilan Webcam" width="49%"/>
+  <img src="documentation/WEBCAM HASIL.png" alt="Hasil Webcam" width="49%"/>
+</p>
+
+---
+ 
+### Pengaruh Threshold
+ 
+Threshold mengontrol batas sensitivitas pengenalan. Semakin **tinggi** threshold, semakin mudah wajah dikenali (namun rawan false positive). Semakin **rendah** threshold, semakin ketat seleksinya.
+ 
+<p align="center">
+  <img src="documentation/THRESHOLD TINGGI 2.png" alt="Threshold Tinggi 2" width="49%"/>
+  <img src="documentation/THRESHOLD RENDAH 2.png" alt="Threshold Rendah 2" width="49%"/>
+</p>
+
+---
+ 
+### Panel Visualisasi
+ 
+Akses melalui tombol **"Lihat Visualisasi"** setelah dataset dimuat. Terdapat 5 tab analisis:
+ 
+<p align="center">
+  <img src="documentation/VISUALISASI 1.png" alt="Visualisasi 1 - Eigenface" width="40%"/>
+  <img src="documentation/VISUALISASI 2.png" alt="Visualisasi 2 - Grafik Nilai Eigen" width="40%"/>
+  <img src="documentation/VISUALISASI 3.png" alt="Visualisasi 3 - Vektor Eigen" width="40%"/>
+  <img src="documentation/VISUALISASI 4.png" alt="Visualisasi 4 - Plot Eigenface" width="40%"/>
+  <img src="documentation/VISUALISASI 5.png" alt="Visualisasi 5 - Evaluasi Akurasi" width="40%"/>
+</p>
 
 ---
 
