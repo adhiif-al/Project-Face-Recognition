@@ -308,7 +308,7 @@ Dalam visualisasi **Grafik Nilai Eigen**, komponen di atas garis threshold (λ²
 
 ## 📄 Lisensi
 
-Proyek ini dikembangkan untuk keperluan **Project Based Learning — Aljabar Linear**.  
+Proyek ini dikembangkan untuk keperluan **Project Based Learning 1 | Aljabar Linear**.  
 FAUSTINA HELENA AFNY		L0125040 </br>
 TSANIYA NURFADHILAH		L0125117 </br>
 ALYAA NADHIIFAH			L0125141 </br>
